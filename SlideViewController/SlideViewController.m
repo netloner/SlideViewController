@@ -173,8 +173,8 @@
     
     [self.view addSubview:_slideNavigationController.view];
     
-    if ([self.delegate respondsToSelector:@selector(initialSelectedIndexPath)])
-        [_tableView selectRowAtIndexPath:[self.delegate initialSelectedIndexPath] animated:NO scrollPosition:UITableViewScrollPositionTop];
+    //if ([self.delegate respondsToSelector:@selector(initialSelectedIndexPath)])
+      //  [_tableView selectRowAtIndexPath:[self.delegate initialSelectedIndexPath] animated:NO scrollPosition:UITableViewScrollPositionTop];
     
 }
 
