@@ -1,0 +1,9 @@
+SlideViewController.xcodeproj/xcuserdata/netloner.xcuserdatad/
+SlideViewController.xcodeproj/project.xcworkspace/xcuserdata/netloner.xcuserdatad/
+build
+*.pbxuser
+*.perspectivev3
+*.mode1v3
+.DS_Store
+Thumbs.db
+Thumbs.db:encryptable

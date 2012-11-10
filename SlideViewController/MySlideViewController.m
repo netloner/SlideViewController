@@ -9,6 +9,7 @@
 #import "HomeViewController.h"
 #import "FriendViewController.h"
 #import "SettingsViewController.h"
+#import "smsAppDelegate.h"
 
 @implementation MySlideViewController
 
@@ -152,7 +153,7 @@
     
     HomeViewController *homeViewController = [[HomeViewController alloc] initWithNibName:@"HomeViewController" bundle:nil];
     
-    return [homeViewController autorelease];
+    return [smsAppDelegate sharedAppDelegate].tabBarController;
     
 }
 

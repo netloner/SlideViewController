@@ -14,6 +14,7 @@
  */
 
 #import "SlideViewController.h"
+#import "smsAppDelegate.h"
 #import <QuartzCore/QuartzCore.h>
 
 #define kSVCLeftAnchorX                 100.0f
@@ -149,6 +150,7 @@
         _searchBar.hidden = YES;
         _tableView.frame = CGRectMake(0.0f, 0.0f, 320.0f, 460.0f);
     }
+    //_slideNavigationController = [smsAppDelegate sharedAppDelegate].navigationController;
     
     _slideNavigationController.view.layer.shadowColor = [[UIColor blackColor] CGColor];
     _slideNavigationController.view.layer.shadowOffset = CGSizeMake(0.0f, 0.0f);
